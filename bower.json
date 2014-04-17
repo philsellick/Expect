@@ -1,0 +1,14 @@
+{
+  "name": "libertyGlobalDemo",
+  "version": "1.0.0",
+  "authors": [
+    "swaraj <swaraj@expectlabs.com>"
+  ],
+  "description": "Demo MindMeld API Application for Liberty Global",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "mindmeld-js-sdk": "~2.1.0",
+    "lodash": "~2.4.1"
+  }
+}
