@@ -9,7 +9,7 @@
 
     function onMMInit () {
         // Set the token to user token obtained from getToken() call below with userid setTopBoxClient
-        MM.setToken('ecbc4e2a5bf3a874818cafcc96c266b7d96156cc',
+        MM.setToken('79edf2b66de3bd88b99481688f2a9998e4715fea',
             function onTokenValid () {
                 console.log('token valid');
                 MM.setActiveSessionID('84223'); // Session Id for demo
