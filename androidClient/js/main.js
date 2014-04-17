@@ -1,7 +1,7 @@
 (function ($, MM) {
 
     var config = {
-        appid: '367b243585deec5d6c5b6444d43f0c495fa7d0df',
+        appid: '0627e108ccbc4ae191009296ea38235f34778405',
         onInit: onMMInit
     };
 
@@ -13,13 +13,14 @@
 
     function onMMInit () {
         // Set the token to user token obtained from getToken() call below with userid androidClient
-        MM.setToken('d569cc84eb50fd12a97f820bb607c5163f0060cc',
+        MM.setToken('20ab1c1d23e9f0f2df5842c0edac688d1afdfd82',
             function onTokenValid () {
                 console.log('token valid');
-                MM.setActiveUserID('1352'); // Android Client User ID
-                MM.setActiveSessionID('83092'); // Session ID for demo
+                MM.setActiveUserID('1511'); // Android Client User ID
+                MM.setActiveSessionID('84223'); // Session ID for demo
                 MM.activeSession.entities.onUpdate(onEntitiesUpdate, onSubscribedToEntityUpdates);
                 initializeMicrophone();
+        //        addUserToSession();
             },
             function onTokenInvalid() {
                 console.log('token invalid');
@@ -184,7 +185,7 @@
     function getToken () {
         // get user token
         var credentials = {
-            appsecret: '6451b76e428a05ee09a84c17ba4e3dd1f81637c6',
+            appsecret: 'ecbc4e2a5bf3a874818cafcc96c266b7d96156cc',
             simple: {
                 userid: 'setTopBoxClient',
                 name: 'Liberty Global Set Top Box Client'

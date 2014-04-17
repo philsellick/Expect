@@ -1,6 +1,6 @@
 (function ($, MM) {
     var config = {
-        appid: '367b243585deec5d6c5b6444d43f0c495fa7d0df',
+        appid: '0627e108ccbc4ae191009296ea38235f34778405',
         onInit: onMMInit
     };
     // Initialize MM SDK
@@ -9,11 +9,11 @@
 
     function onMMInit () {
         // Set the token to user token obtained from getToken() call below with userid setTopBoxClient
-        MM.setToken('dc917ab3c1c085d00f35fc429dcd8537a5f0fdb4',
+        MM.setToken('ecbc4e2a5bf3a874818cafcc96c266b7d96156cc',
             function onTokenValid () {
                 console.log('token valid');
-                MM.setActiveSessionID('83092'); // Session Id for demo
-                MM.setActiveUserID('1353'); // Android Client User ID
+                MM.setActiveSessionID('84223'); // Session Id for demo
+                MM.setActiveUserID('1514'); // Android Client User ID
                 MM.activeSession.subscribe('ChangeChannel', onChangeChannel, onSubscribeChangeChannel);
             },
             function onTokenInvalid() {

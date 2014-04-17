@@ -1,7 +1,7 @@
 (function (MM, _, CHANNELS) {
 
     var config = {
-        appid: '367b243585deec5d6c5b6444d43f0c495fa7d0df',
+        appid: '0627e108ccbc4ae191009296ea38235f34778405',
         onInit: onMMInit
     };
     // Initialize MM SDK
@@ -9,10 +9,10 @@
 
 
     function onMMInit () {
-        MM.setToken('66c59105e576c254aff23332ff881bc17ab413fa',
+        MM.setToken('1f9920e8a07a714ce14522b686c97844ff993f35',
             function onTokenValid () {
                 console.log('token valid');
-//                uploadDocuments(CHANNELS);
+        //       uploadDocuments(CHANNELS);
             },
             function onTokenInvalid() {
                 console.log('token invalid');

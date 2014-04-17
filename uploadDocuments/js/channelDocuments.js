@@ -173,7 +173,7 @@ var CHANNELS = (function () {
         },
         {
             "title": "BBC 4",
-            "description": "",
+            "description": "BBC 4",
             "originurl": "http://store.virginmedia.com/content/dam/eSales/TV/logos-81x45/bbc-four-81x45.png",
             "image": {
                 "url": "http://store.virginmedia.com/content/dam/eSales/TV/logos-81x45/bbc-four-81x45.png"
