@@ -108,6 +108,7 @@
         if (documents.length > 0) { // Found the channel!
             var channelDocument = documents[0];
             var channelName = channelDocument.title;
+            var channelImage = channelDocument.originurl;
             logResultMessage('Matched transcript to  channel ' + channelName);
             MM.activeSession.publish('ChangeChannel', channelName);
         }

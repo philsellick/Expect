@@ -35,12 +35,14 @@
      * color to the div based on channel name
      *
      * @param channelName
+     * @param channelImage
      */
-    function onChangeChannel (channelName) {
+    function onChangeChannel (channelName, channelImage) {
         var channelColor = getBackgroundColorFromName(channelName);
         $('.channel').css('background-color', channelColor);
         $('#channelText').text(channelName);
         console.log('received ChangeChannel event with channel: ' + JSON.stringify(channelName));
+        console.log('received Image with channek : ' + channelImage);
     }
 
     /**
